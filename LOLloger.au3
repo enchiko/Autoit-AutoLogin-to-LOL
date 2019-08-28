@@ -1,10 +1,14 @@
 
 HotKeySet("{f1}", "konec")
-
-Run("E:\lol\LeagueClient.exe")
-AutoItSetOption("MouseCoordMode", 0)
 $pass = FileReadLine("password.txt")
 $id= FileReadLine("id.txt")
+$path = FileReadLine("path.txt")
+
+
+Run($path)
+AutoItSetOption("MouseCoordMode", 0)
+
+
 Sleep(1000)
 WinWait("League of Legends")
 while (1)
