@@ -8,7 +8,9 @@ Program needs 3 txt files.
   3. path.txt
 
 id = username which has to be insert in first box in lol client
+
 password = your password, second textbox in lol client
+
 path = shortcut to lol client (for example "E:\lol\LeagueClient.exe")
 
 
