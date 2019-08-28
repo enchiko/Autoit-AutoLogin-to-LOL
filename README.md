@@ -2,12 +2,14 @@
 autologin for League of Legends
 
 
-Program needs 2 txt files.
+Program needs 3 txt files.
   1. password.txt
   2. id.txt
+  3. path.txt
 
 id = username which has to be insert in first box in lol client
 password = your password, second textbox in lol client
+path = shortcut to lol client (for example "E:\lol\LeagueClient.exe")
 
 
 First PixelSearch is position of username textbox (+ litte bit of padding) and black color of it (0x000306)
